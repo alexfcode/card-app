@@ -6,15 +6,28 @@ import styled from "styled-components";
 function App() {
   return (
     <div className="App">
-      <Box>Card</Box>
+      <Box>
+        <Card>Card</Card>
+        <Card>Card</Card>
+        <Card>Card</Card>
+        <Card>Card</Card>
+        <Card>Card</Card>
+        <Card>Card</Card>
+      </Box>
     </div>
   );
 }
 
 const Box = styled.div`
+  height: 100vh;
   display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+`;
+
+const Card = styled.div`
   border-radius: 15px;
   width: 300px;
   height: 350px;
