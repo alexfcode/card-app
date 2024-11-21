@@ -6,14 +6,14 @@
     box-sizing: border-box;
 }
 
-/* body {
+.App {
   height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
   gap: 20px;
-} */
+}
 
 
 
